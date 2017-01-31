@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Open Whisper Systems. All rights reserved.
 //
 
-#import "PreKeyBundle.h"
+#import <AxolotlKit/PreKeyBundle.h>
 
 @interface PreKeyBundle (jsonDict)
 

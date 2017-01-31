@@ -32,14 +32,14 @@ An Objective-C library for communicating with the Signal messaging service.
   s.prefix_header_file = 'src/TSPrefix.h'
   s.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC' }
 
-  s.dependency 'Curve25519'
-  s.dependency 'CocoaLumberjack'
+  s.dependency 'Curve25519', '2.0.3'
+  s.dependency 'CocoaLumberjack', '2.0.0'
   s.dependency 'AFNetworking'
   s.dependency 'AxolotlKit', '0.8.1'
   s.dependency 'Mantle'
   s.dependency 'YapDatabase/SQLCipher'
-  s.dependency 'SocketRocket'
-  s.dependency 'libPhoneNumber-iOS'
+  s.dependency 'SocketRocket', '0.5.2'
+  s.dependency 'libPhoneNumberiOS', '0.9.3'
   s.dependency 'SAMKeychain'
   s.dependency 'TwistedOakCollapsingFutures'
 end

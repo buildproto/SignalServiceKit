@@ -4,6 +4,7 @@
 
 #import "SubProtocol.pb.h"
 
+#import "SRWebSocket.h"
 #import "Cryptography.h"
 #import "OWSDispatch.h"
 #import "OWSSignalService.h"
