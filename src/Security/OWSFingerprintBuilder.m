@@ -6,7 +6,7 @@
 #import "OWSFingerprint.h"
 #import "TSStorageManager+IdentityKeyStore.h"
 #import "TSStorageManager+keyingMaterial.h"
-#import <25519/Curve25519.h>
+#import <Curve25519/Curve25519.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
