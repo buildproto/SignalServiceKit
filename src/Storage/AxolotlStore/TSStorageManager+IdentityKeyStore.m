@@ -7,7 +7,7 @@
 #import "TSErrorMessage.h"
 #import "TSPrivacyPreferences.h"
 #import "TSStorageManager+IdentityKeyStore.h"
-#import <25519/Curve25519.h>
+#import <Curve25519/Curve25519.h>
 
 #define TSStorageManagerIdentityKeyStoreIdentityKey \
     @"TSStorageManagerIdentityKeyStoreIdentityKey" // Key for our identity key

@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <25519/Curve25519.h>
+#import <Curve25519/Curve25519.h>
 
 #import "SecurityUtils.h"
 #import "TSPrivacyPreferences.h"

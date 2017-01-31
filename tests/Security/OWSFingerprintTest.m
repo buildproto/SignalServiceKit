@@ -2,7 +2,7 @@
 //  Copyright © 2016 Open Whisper Systems. All rights reserved.
 
 #import "OWSFingerprint.h"
-#import <25519/Curve25519.h>
+#import <Curve25519/Curve25519.h>
 #import <XCTest/XCTest.h>
 
 @interface OWSFingerprintTest : XCTestCase
