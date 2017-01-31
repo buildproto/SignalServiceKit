@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
 An Objective-C library for communicating with the Signal messaging service.
   DESC
 
-  s.homepage         = "https://github.com/WhisperSystems/SignalServiceKit"
+  s.homepage         = "https://github.com/buildproto/SignalServiceKit"
   s.license          = 'GPLv3'
   s.author           = { "Frederic Jacobs" => "github@fredericjacobs.com" }
-  s.source           = { :git => "https://github.com/WhisperSystems/SignalServiceKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/buildproto/SignalServiceKit.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/FredericJacobs'
 
   s.platform     = :ios, '8.0'
@@ -32,10 +32,10 @@ An Objective-C library for communicating with the Signal messaging service.
   s.prefix_header_file = 'src/TSPrefix.h'
   s.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC' }
 
-  s.dependency '25519'
+  s.dependency 'Curve25519'
   s.dependency 'CocoaLumberjack'
   s.dependency 'AFNetworking'
-  s.dependency 'AxolotlKit'
+  s.dependency 'AxolotlKit', '0.8.1'
   s.dependency 'Mantle'
   s.dependency 'YapDatabase/SQLCipher'
   s.dependency 'SocketRocket'
