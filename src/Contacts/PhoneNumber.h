@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import <libPhoneNumber-iOS/NBPhoneNumberUtil.h>
+#import <libPhoneNumberiOS/NBPhoneNumberUtil.h>
 
 #define COUNTRY_CODE_PREFIX @"+"
 
