@@ -34,12 +34,12 @@ An Objective-C library for communicating with the Signal messaging service.
 
   s.dependency 'Curve25519', '2.0.3'
   s.dependency 'CocoaLumberjack', '2.0.0'
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '3.1.0'
   s.dependency 'AxolotlKit', '0.8.1'
-  s.dependency 'Mantle'
-  s.dependency 'YapDatabase/SQLCipher'
+  s.dependency 'Mantle', '2.1.0'
+  s.dependency 'YapDatabase/SQLCipher', '2.9.2'
   s.dependency 'SocketRocket', '0.5.2'
   s.dependency 'libPhoneNumberiOS', '0.9.3'
-  s.dependency 'SAMKeychain'
-  s.dependency 'TwistedOakCollapsingFutures'
+  s.dependency 'SAMKeychain', '1.5.2'
+  s.dependency 'TwistedOakCollapsingFutures', '1.0.0'
 end
